@@ -785,6 +785,11 @@ libraries[ckeditor_widget][type] = "libraries"
 libraries[ckeditor_widget][subdir] = "ckeditor/plugins"
 libraries[ckeditor_widget][directory_name] = "widget"
 
+libraries[flexslider][download][type] = "get"
+libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/zipball/master"
+libraries[flexslider][directory_name] = "flexslider"
+libraries[flexslider][type] = "library"
+
 ; themes
 projects[mothership][type] = "theme"
 projects[mothership][version] = "2.10"
