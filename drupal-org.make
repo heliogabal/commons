@@ -155,7 +155,7 @@ projects[facetapi][version] = "1.5"
 
 projects[features][type] = "module"
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.2"
+projects[features][version] = "2.3"
 
 projects[file_entity][type] = "module"
 projects[file_entity][subdir] = "contrib"
@@ -727,7 +727,7 @@ projects[multiform][version] = "1.1"
 projects[multiform][subdir] = contrib
 projects[page_manager_templates][version] = "1.x-dev"
 projects[page_manager_templates][subdir] = "contrib"
-projects[picture][version] = "2.8"
+;projects[picture][version] = "2.9"
 projects[picture][subdir] = contrib
 projects[profiler_builder][version] = "1.2"
 projects[profiler_builder][subdir] = "contrib"
