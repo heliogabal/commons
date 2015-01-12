@@ -639,7 +639,7 @@ projects[] = "cms_bootstrap3"
 projects[] = "nexus"
 
 ; Bear Modules
-projects[addanother]
+projects[addanother] = "2.2"
 projects[admin_menu][version] = "3.0-rc5"
 projects[admin_menu][subdir] = contrib
 projects[admin_views][version] = "1.3"
