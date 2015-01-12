@@ -747,6 +747,14 @@ projects[views_bulk_operations][version] = "3.2"
 projects[views_bulk_operations][subdir] = contrib
 projects[views_slideshow][version] = "3.1"
 projects[views_slideshow][subdir] = contrib
+projects[workbench][version] = "1.2"
+projects[workbench][subdir] = "contrib"
+projects[workbench_access][version] = "1.2"
+projects[workbench_access][subdir] = "contrib"
+projects[workbench_media][version] = "1.1"
+projects[workbench_media][subdir] = "contrib"
+projects[workbench_moderation][version] = "1.3"
+projects[workbench_moderation][subdir] = "contrib"
 projects[wysiwyg][version] = "2.x-dev"
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg_template][version] = "2.11"
@@ -761,3 +769,25 @@ libraries[fullcalendar][download][subtree] = "fullcalendar-1.6.0/fullcalendar"
 libraries[leaflet][download][type] = "file"
 libraries[leaflet][download][url] = "http://leaflet-cdn.s3.amazonaws.com/build/leaflet-0.7.1.zip"
 
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.3.4/ckeditor_4.3.4_full.zip"
+libraries[ckeditor][type] = "libraries"
+
+libraries[ckeditor_lineutils][download][type] = "get"
+libraries[ckeditor_lineutils][download][url] = "http://download.ckeditor.com/lineutils/releases/lineutils_4.3.4.zip"
+libraries[ckeditor_lineutils][type] = "libraries"
+libraries[ckeditor_lineutils][subdir] = "ckeditor/plugins"
+libraries[ckeditor_lineutils][directory_name] = "lineutils"
+
+libraries[ckeditor_widget][download][type] = "get"
+libraries[ckeditor_widget][download][url] = "http://download.ckeditor.com/widget/releases/widget_4.3.4.zip"
+libraries[ckeditor_widget][type] = "libraries"
+libraries[ckeditor_widget][subdir] = "ckeditor/plugins"
+libraries[ckeditor_widget][directory_name] = "widget"
+
+; themes
+projects[mothership][type] = "theme"
+projects[mothership][version] = "2.10"
+
+projects[shiny][type] = "theme"
+projects[shiny][version] = "1.6"
