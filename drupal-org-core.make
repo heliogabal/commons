@@ -4,6 +4,8 @@ core = 7.x
 ; Download Drupal core and apply core patches if needed.
 projects[drupal][type] = "core"
 projects[drupal][version] = 7.34
+projects[drupal][download][type] = "get"
+projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.34.1.tar.gz"
 
 ; This patch allows install profile to list requirements on the install page
 ; http://drupal.org/node/1971072
