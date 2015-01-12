@@ -19,7 +19,8 @@ projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.34.1.tar.
 
 ; Allow to specify SCRIPT HTML element attributes through drupal_add_js()
 ; http://drupal.org/node/1664602#comment-6221066
-projects[drupal][patch][] = http://drupal.org/files/1664602-1.patch
+; doesn't work on omega8 core
+;projects[drupal][patch][] = http://drupal.org/files/1664602-1.patch
 
 ; Optimize node access queries.
 ; https://drupal.org/comment/8516319#comment-8516319
