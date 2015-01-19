@@ -13,7 +13,7 @@ projects[acquia_connector][patch][] = "https://drupal.org/files/issues/move-mess
 
 projects[addressfield][type] = "module"
 projects[addressfield][subdir] = "contrib"
-projects[addressfield][version] = "1.0-rc1"
+projects[addressfield][version] = "1.0"
 
 projects[addressfield_tokens][type] = "module"
 projects[addressfield_tokens][subdir] = "contrib"
@@ -639,9 +639,12 @@ projects[] = "cms_bootstrap3"
 projects[] = "nexus"
 
 ; Bear Modules
-projects[addanother] = "2.2"
+projects[addanother][version] = "2.2"
+projects[addanother][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc5"
 projects[admin_menu][subdir] = contrib
+projects[adminimal_admin_menu][version] = "1.5"
+projects[adminimal_admin_menu][subdir] = "contrib"
 projects[admin_views][version] = "1.3"
 projects[admin_views][subdir] = contrib
 projects[better_formats][version] = "1.0-beta1"
@@ -710,9 +713,9 @@ projects[habitat][version] = "1.0"
 projects[habitat][subdir] = contrib
 projects[link][version] = "1.3"
 projects[link][subdir] = contrib
-projects[linkit][version] = "2.x-dev"
+projects[linkit][version] = "2.7"
 projects[linkit][subdir] = contrib
-projects[linkit][patch][] = "http://www.drupal.org/files/issues/modal-hiding-behind-panels-modal-2312851-1.patch"
+;projects[linkit][patch][] = "http://www.drupal.org/files/issues/modal-hiding-behind-panels-modal-2312851-1.patch"
 projects[media_youtube][version] = "2.x-dev"
 projects[media_youtube][subdir] = contrib
 projects[menu_block][version] = "2.4"
@@ -728,7 +731,9 @@ projects[multiform][subdir] = contrib
 projects[page_manager_templates][version] = "1.x-dev"
 projects[page_manager_templates][subdir] = "contrib"
 ;projects[picture][version] = "2.9"
-projects[picture][subdir] = contrib
+;projects[picture][subdir] = contrib
+projects[prlp][version] = "1.0"
+projects[prlp][subdir] = "contrib"
 projects[profiler_builder][version] = "1.2"
 projects[profiler_builder][subdir] = "contrib"
 projects[redirect][version] = "1.0-rc1"
@@ -794,5 +799,8 @@ libraries[flexslider][type] = "library"
 projects[mothership][type] = "theme"
 projects[mothership][version] = "2.10"
 
-projects[shiny][type] = "theme"
-projects[shiny][version] = "1.6"
+;projects[shiny][type] = "theme"
+;projects[shiny][version] = "1.6"
+
+projects[adminimal][type] = "theme"
+projects[adminimal][version] = "1.19"
