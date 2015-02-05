@@ -163,15 +163,15 @@ projects[file_entity][version] = "2.0-beta1"
 
 projects[flag][type] = "module"
 projects[flag][subdir] = "contrib"
-projects[flag][version] = "2.2"
+projects[flag][version] = "3.5"
 
 ; Issue #1965760: Manually set taxonomy term flag types because its different.
 ; https://drupal.org/node/1965760
-projects[flag][patch][] = "https://drupal.org/files/issues/1965760.29.flag_.entity-tokens.patch"
+;projects[flag][patch][] = "https://drupal.org/files/issues/1965760.29.flag_.entity-tokens.patch"
 
 ; Provide a hook to allow default flag definitions to be altered.
 ; https://drupal.org/node/2027091#comment-8012263
-projects[flag][patch][] = "https://drupal.org/files/flag-default-flags-alter-hook-2027091-03.patch"
+;projects[flag][patch][] = "https://drupal.org/files/flag-default-flags-alter-hook-2027091-03.patch"
 
 projects[flag_abuse][type] = "module"
 projects[flag_abuse][subdir] = "contrib"
@@ -681,6 +681,8 @@ projects[ds][version] = "2.7"
 projects[ds][subdir] = contrib
 projects[ds_bootstrap_layouts][version] = "1.1"
 projects[ds_bootstrap_layouts][subdir] = "contrib"
+projects[draggable_views][version] = "2.0"
+projects[draggable_views][subdir] = "contrib"
 projects[email][version] = "1.3"
 projects[email][subdir] = contrib
 projects[entity][version] = "1.5"
@@ -693,6 +695,8 @@ projects[entitycache][subdir] = contrib
 projects[entitycache][patch][] = https://www.drupal.org/files/entitycache-numeric-ids.patch
 projects[entityreference][version] = "1.1"
 projects[entityreference][subdir] = contrib
+projects[fb_autopost][version] = "1.2"
+projects[fb_autopost][subdir] = "contrib"
 projects[feeds][version] = "2.0-alpha8"
 projects[feeds][subdir] = contrib
 projects[feeds_tamper][version] = "1.0"
@@ -715,10 +719,14 @@ projects[geofield][version] = "2.3"
 projects[geofield][subdir] = "contrib"
 projects[geophp][version] = "1.7"
 projects[geophp][subdir] = "contrib"
+projects[invisimail][version] = "1.1"
+projects[invisimail][subdir] = "contrib"
 projects[leaflet][version] = "1.1"
 projects[leaflet][subdir] = "contrib"
 projects[leaflet_more_maps][version] = "1.10"
 projects[leaflet_more_maps][subdir] = "contrib"
+projects[leaflet_mapbox][version] = "1.2"
+projects[leaflet_mapbox][subdir] = "contrib"
 projects[habitat][version] = "1.0"
 projects[habitat][subdir] = contrib
 projects[link][version] = "1.3"
@@ -756,8 +764,14 @@ projects[styleguide][version] = "1.1"
 projects[styleguide][subdir] = contrib
 projects[taxonomy_menu][version] = "1.5"
 projects[taxonomy_menu][subdir] = "contrib"
+projects[transliteration][version] = "3.2"
+projects[transliteration][subdir] = "contrib"
+projects[twitter][version] = "5.8"
+projects[twitter][subdir] = "contrib"
 projects[xmlsitemap][version] = "2.2"
 projects[xmlsitemap][subdir] = contrib
+projects[views_bootstrap][version] = "3.1"
+projects[views_bootstrap][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.2"
 projects[views_bulk_operations][subdir] = contrib
 projects[views_slideshow][version] = "3.1"
