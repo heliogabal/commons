@@ -359,23 +359,23 @@ projects[picture][subdir] = "contrib"
 
 ; Add ctools as a dependency
 ; https://drupal.org/node/2173043
-projects[picture][patch][] = "https://drupal.org/files/issues/add-ctools-dependency-2173043-1.patch"
+;projects[picture][patch][] = "https://drupal.org/files/issues/add-ctools-dependency-2173043-1.patch"
 
 ; Allow filter tips to be translated
 ; https://drupal.org/node/2139459
-projects[picture][patch][] = "https://drupal.org/files/issues/translate-filter-tips-2139459-1.patch"
+;projects[picture][patch][] = "https://drupal.org/files/issues/translate-filter-tips-2139459-1.patch"
 
 ; Move hook_uninstall() to picture.install to fix issues on uninstall.
 ; https://drupal.org/node/2173015
-projects[picture][patch][] = "https://drupal.org/files/issues/move-uninstall-hook-implementation-2173015-1.patch"
+;projects[picture][patch][] = "https://drupal.org/files/issues/move-uninstall-hook-implementation-2173015-1.patch"
 
 ; Remove implementation of hook_file_formatter_info() to remove duplicate file formatter.
 ; https://drupal.org/node/2172841
-projects[picture][patch][] = "https://drupal.org/files/issues/remove-file-formatter-hook-implementation-2172831-1.patch"
+;projects[picture][patch][] = "https://drupal.org/files/issues/remove-file-formatter-hook-implementation-2172831-1.patch"
 
 ; Remove implementation of hook_ctools_plugin_api() to fix issues with features.
 ; https://drupal.org/node/2172831
-projects[picture][patch][] = "https://drupal.org/files/issues/remove-ctools-hook-implementation-2172831-1.patch"
+;projects[picture][patch][] = "https://drupal.org/files/issues/remove-ctools-hook-implementation-2172831-1.patch"
 
 projects[pm_existing_pages][type] = "module"
 projects[pm_existing_pages][subdir] = "contrib"
