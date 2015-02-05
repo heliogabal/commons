@@ -74,7 +74,7 @@ projects[ckeditor][patch][] = "https://drupal.org/files/issues/ckeditor-accomoda
 
 projects[ctools][type] = "module"
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.5"
+projects[ctools][version] = "1.6"
 
 projects[custom_search][type] = "module"
 projects[custom_search][subdir] = "contrib"
@@ -612,7 +612,7 @@ projects[image_field_caption][subdir] = contrib
 projects[image_field_caption][version] = "1.x-dev"
 
 projects[jquery_update][subdir] = contrib
-projects[jquery_update][version] = "2.4"
+projects[jquery_update][version] = "2.5"
 
 projects[metatag_views_overview][subdir] = contrib
 projects[metatag_views_overview][version] = "1.x-dev"
@@ -718,7 +718,7 @@ projects[linkit][subdir] = contrib
 ;projects[linkit][patch][] = "http://www.drupal.org/files/issues/modal-hiding-behind-panels-modal-2312851-1.patch"
 projects[media_youtube][version] = "2.x-dev"
 projects[media_youtube][subdir] = contrib
-projects[menu_block][version] = "2.4"
+projects[menu_block][version] = "2.5"
 projects[menu_block][subdir] = contrib
 projects[menu_expanded][version] = "1.0-beta1"
 projects[menu_expanded][subdir] = "contrib"
@@ -746,7 +746,7 @@ projects[styleguide][version] = "1.1"
 projects[styleguide][subdir] = contrib
 projects[taxonomy_menu][version] = "1.5"
 projects[taxonomy_menu][subdir] = "contrib"
-projects[xmlsitemap][version] = "2.1"
+projects[xmlsitemap][version] = "2.2"
 projects[xmlsitemap][subdir] = contrib
 projects[views_bulk_operations][version] = "3.2"
 projects[views_bulk_operations][subdir] = contrib
@@ -802,5 +802,5 @@ projects[mothership][version] = "2.10"
 ;projects[shiny][type] = "theme"
 ;projects[shiny][version] = "1.6"
 
-projects[adminimal][type] = "theme"
-projects[adminimal][version] = "1.19"
+projects[adminimal_theme][type] = "theme"
+projects[adminimal_theme][version] = "1.20"

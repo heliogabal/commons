@@ -23,8 +23,11 @@ dependencies[] = shortcut
 dependencies[] = taxonomy
 
 ; Install required contributed modules.
+dependencies[] = addanother
 dependencies[] = addressfield
 dependencies[] = addressfield_tokens
+dependencies[] = admin_menu
+dependencies[] = adminimal_admin_menu
 dependencies[] = breakpoints
 dependencies[] = ckeditor
 dependencies[] = ctools
@@ -50,7 +53,7 @@ dependencies[] = message_notify
 dependencies[] = message_subscribe
 dependencies[] = metatag
 dependencies[] = module_filter
-dependencies[] = navbar
+;dependencies[] = navbar
 dependencies[] = media_oembed
 dependencies[] = og
 dependencies[] = panelizer
