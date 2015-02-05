@@ -27,27 +27,51 @@ dependencies[] = addanother
 dependencies[] = addressfield
 dependencies[] = addressfield_tokens
 dependencies[] = admin_menu
+dependencies[] = admin_views
 dependencies[] = adminimal_admin_menu
+dependencies[] = back_to_top
+dependencies[] = better_formats
+dependencies[] = better_exposed_filters
+dependencies[] = block_class
 dependencies[] = breakpoints
+dependencies[] = calendar
 dependencies[] = ckeditor
+dependencies[] = colorbox
+dependencies[] = colors
+dependencies[] = conditional_fields
+dependencies[] = content_menu
+dependencies[] = context_admin
 dependencies[] = ctools
 dependencies[] = custom_search
 dependencies[] = diff
+dependencies[] = ds
+dependencies[] = ds_bootstrap_layouts
+dependencies[] = draggable_views
 dependencies[] = elements
 dependencies[] = email_registration
 dependencies[] = entity
 dependencies[] = entityreference
 dependencies[] = entitycache
 dependencies[] = edit_profile
+dependencies[] = fb_autopost
 dependencies[] = features
 dependencies[] = file_entity
 dependencies[] = flag
+dependencies[] = fpa
+dependencies[] = geocoder
+dependencies[] = geofield
+dependencies[] = geophp
+dependencies[] = leaflet
+dependencies[] = leaflet_mapbox
 dependencies[] = http_client
+dependencies[] = invisimail
 dependencies[] = libraries
+dependencies[] = locale
 dependencies[] = media
 dependencies[] = media_internet
 dependencies[] = media_wysiwyg
 dependencies[] = menu_attributes
+dependencies[] = menu_block
 dependencies[] = message
 dependencies[] = message_notify
 dependencies[] = message_subscribe
@@ -73,11 +97,14 @@ dependencies[] = schemaorg
 dependencies[] = sharethis
 dependencies[] = strongarm
 dependencies[] = token
+dependencies[] = transliteration
 dependencies[] = views
+dependencies[] = views_bootstrap
 dependencies[] = views_bulk_operations
 dependencies[] = views_field_view
 dependencies[] = views_ui
 dependencies[] = votingapi
+dependencies[] = xmlsitemap
 
 ; Install commons specific modules
 dependencies[] = commons_activity_page
@@ -120,6 +147,10 @@ dependencies[] = commons_utility_links
 dependencies[] = commons_wikis
 dependencies[] = commons_wikis_pages
 dependencies[] = commons_wysiwyg
+
+; Bear modules
+
+dependencies[] = context
 
 ; System Requirements.
 php_memory_limit = 128M
